@@ -1,0 +1,9 @@
+# Ignore pdf files
+*.pdf
+```
+
+# Ignore environment variables
+.env
+
+# Ignore Python virtual environment
+venv/

@@ -7,5 +7,5 @@ def is_sorted(A):
             desc = False
     return asc or desc
 
-A = [1, 5, 8]
+A = [1, 2, 3]
 print(is_sorted(A))

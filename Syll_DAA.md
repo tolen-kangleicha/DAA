@@ -1,29 +1,54 @@
-# Syllabus for DAA (Design & Analysis of Algorithms)
-- ## Unit I
-    - Asymptotic notations and their significance, introduction to RAM model of
-computation, complexity analysis of algorithms, comparison based sorting -
-quick sort, heap sort, merge sort: worst and average case analysis. Divide and
-conquer methods for solving problems, recursion-tree method for solving
-recurrences, Master theorem.
-- ## Unit II 
-    - Greedy methodology: fractional knapsack, Job Scheduling, Interval
-Scheduling, Graph algorithms: minimum spanning trees, shortest paths - single
-source
-- ## Unit III
-    - Dynamic programming methodology: optimal substructure, memorization, 0/1
-Knapsack, TSP, Fibonacii calculation, longest common subsequence, longest
-increasing subsequence, shortest paths – all pairs
-- ## Unit IV
-    - Backtracking methodology: n-queen problem, Hamiltonian circuit, subset
-problem, m-coloring
-- ## Unit V
-    - Branch bound approach: Assignment problem, 0/1 knapsack; NP-Complete
-Theory: P and NP, NP hard and NP-complete problems, intractability,
-approximation algorithms
+# 📌 Syllabus for DAA (Design & Analysis of Algorithms)
 
-- ## Books:
-    - Introduction to algorithms, T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein, 3 rd Edition, PHI, 2009.
-    - Fundamentals of Algorithm, Horowitz & Sahani, 2nd Edition, Universities Press.
-    - Algorithms, Berman, Cengage Learning, 2008.
-    - Algorithms, Sanjoy Dasgupta, Umesh Vazirani, 1 st Edition, McGraw-Hill Education, 2006.
-    - lgorithm Design, Goodrich, Tamassia, Wiley India, 2001.
+## 📖 Unit I: Complexity Analysis & Divide and Conquer  
+- **Asymptotic Notations** and their significance  
+- Introduction to **RAM model** of computation  
+- **Complexity analysis** of algorithms  
+- **Sorting algorithms:**  
+  - `Quick Sort`, `Heap Sort`, `Merge Sort` (Worst & Average case analysis)  
+- **Divide and Conquer Approach:**  
+  - Recursion-tree method  
+  - **Master theorem**  
+
+## 🛠️ Unit II: Greedy Algorithms  
+- **Greedy Methodology:**  
+  - `Fractional Knapsack`  
+  - `Job Scheduling`  
+  - `Interval Scheduling`  
+- **Graph Algorithms:**  
+  - Minimum Spanning Trees (MST)  
+  - Single-source shortest paths  
+
+## 🔥 Unit III: Dynamic Programming  
+- **Concepts:** Optimal Substructure, Memorization  
+- **Algorithms:**  
+  - `0/1 Knapsack`  
+  - `Travelling Salesman Problem (TSP)`  
+  - `Fibonacci Calculation`  
+  - `Longest Common Subsequence (LCS)`  
+  - `Longest Increasing Subsequence (LIS)`  
+  - **All-Pairs Shortest Paths**  
+
+## ♟️ Unit IV: Backtracking  
+- `N-Queen Problem`  
+- `Hamiltonian Circuit`  
+- `Subset Problem`  
+- `M-Coloring`  
+
+## 🚀 Unit V: Branch & Bound, NP-Complete Theory  
+- **Branch and Bound:**  
+  - `Assignment Problem`  
+  - `0/1 Knapsack`  
+- **NP-Complete Theory:**  
+  - `P vs NP`  
+  - `NP-Hard and NP-Complete Problems`  
+  - `Intractability & Approximation Algorithms`  
+
+---
+
+## 📚 Recommended Books:  
+1. **Introduction to Algorithms** – *T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein* (3rd Edition, PHI, 2009)  
+2. **Fundamentals of Algorithm** – *Horowitz & Sahani* (2nd Edition, Universities Press)  
+3. **Algorithms** – *Berman* (Cengage Learning, 2008)  
+4. **Algorithms** – *Sanjoy Dasgupta, Umesh Vazirani* (1st Edition, McGraw-Hill Education, 2006)  
+5. **Algorithm Design** – *Goodrich, Tamassia* (Wiley India, 2001)  

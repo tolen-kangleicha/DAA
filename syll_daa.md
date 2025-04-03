@@ -47,8 +47,8 @@
 ---
 
 ## 📚 Recommended Books:  
-1. [**Introduction to Algorithms**](books/intro_to_algo_CLRS.pdf) – *T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein* (3rd Edition, PHI, 2009)  
-2. [**Fundamentals of Algorithm**](books/fundamentals_to_algo.pdf) – *Horowitz & Sahani* (2nd Edition, Universities Press)  
+1. [**Introduction to Algorithms**](./books/intro_to_algo_CLRS.pdf) – *T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein* (3rd Edition, PHI, 2009)  
+2. [**Fundamentals of Algorithm**](./books/fundamentals_of_algo.pdf) – *Horowitz & Sahani* (2nd Edition, Universities Press)  
 3. **Algorithms** – *Berman* (Cengage Learning, 2008)  
 4. **Algorithms** – *Sanjoy Dasgupta, Umesh Vazirani* (1st Edition, McGraw-Hill Education, 2006)  
 5. **Algorithm Design** – *Goodrich, Tamassia* (Wiley India, 2001)  

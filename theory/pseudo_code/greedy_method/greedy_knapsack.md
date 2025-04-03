@@ -1,3 +1,4 @@
+```
 GreedyKnapsack(p,w,n,M)
 begin
 	// Initialize soln vector, array x[1..n] to 0’s. 
@@ -18,3 +19,5 @@ begin
     	endif 
     end for 
 end
+
+```

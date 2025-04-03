@@ -1,3 +1,4 @@
+```
 procedure DANDC(p, q)
     global n, A(1:n)
     integer m, p, q     // 1 <= p <= q <= n
@@ -9,3 +10,4 @@ procedure DANDC(p, q)
         return COMBINE(DANDC(p, m), DANDC(m + 1, q))
     endif
 end procedure
+```

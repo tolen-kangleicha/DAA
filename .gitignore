@@ -1,9 +1,58 @@
 # Ignore pdf files
 *.pdf
-```
 
-# Ignore environment variables
-.env
+# Byte-compiled / compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Ignore Python virtual environment
+# Virtual environment directories
 venv/
+env/
+*.venv
+
+# Pip dependency caches
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Poetry dependency files
+.poetry/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MyPy, Pyre, Pylint type check reports
+.mypy_cache/
+.pyre/
+.pylint.d/
+
+# Logs and debugging
+logs/
+*.log
+*.out
+*.err
+debug.log
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Unit test cache
+.tox/
+.nox/
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+*.egg

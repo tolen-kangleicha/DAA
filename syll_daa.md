@@ -1,16 +1,16 @@
 # 📌 Syllabus for DAA (Design & Analysis of Algorithms)
 
-## 📖 Unit I: Complexity Analysis & Divide and Conquer  
+## 📖 Unit I: [Complexity Analysis](./theory/notes/intro_to_daa.pdf) & [Divide and Conquer](./theory/notes/dac_method.pdf)
 - **Asymptotic Notations** and their significance  
 - Introduction to **RAM model** of computation  
 - **Complexity analysis** of algorithms  
 - **Sorting algorithms:**  
   - `Quick Sort`, `Heap Sort`, `Merge Sort` (Worst & Average case analysis)  
-- **Divide and Conquer Approach:**  
+- **Divide and Conquer Approach:**
   - Recursion-tree method  
   - **Master theorem**  
 
-## 🛠️ Unit II: Greedy Algorithms  
+## 🛠️ Unit II: [Greedy Algorithms](./theory/notes/greedy_method.pdf)  
 - **Greedy Methodology:**  
   - `Fractional Knapsack`  
   - `Job Scheduling`  
@@ -47,8 +47,8 @@
 ---
 
 ## 📚 Recommended Books:  
-1. **Introduction to Algorithms** – *T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein* (3rd Edition, PHI, 2009)  
-2. **Fundamentals of Algorithm** – *Horowitz & Sahani* (2nd Edition, Universities Press)  
+1. [**Introduction to Algorithms**](books/intro_to_algo_CLRS.pdf) – *T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein* (3rd Edition, PHI, 2009)  
+2. [**Fundamentals of Algorithm**](books/fundamentals_to_algo.pdf) – *Horowitz & Sahani* (2nd Edition, Universities Press)  
 3. **Algorithms** – *Berman* (Cengage Learning, 2008)  
 4. **Algorithms** – *Sanjoy Dasgupta, Umesh Vazirani* (1st Edition, McGraw-Hill Education, 2006)  
 5. **Algorithm Design** – *Goodrich, Tamassia* (Wiley India, 2001)  

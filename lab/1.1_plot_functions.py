@@ -1,4 +1,4 @@
-""""Module to plot the line & bar graph for some given functions."""
+"""Module to plot the line & bar graph for some given functions."""
 
 import math
 

@@ -1,25 +1,10 @@
-"""
-Module to find the minimum element in a list and measure the time taken.
-"""
-
 import random
 import time
 
 import matplotlib.pyplot as plt
 
 
-# Function to find the minimum element and count comparisons
 def find_min_and_measure_time(input_list):
-    """
-    Finds the minimum element in a list and measures the time taken.
-
-    Args:
-        input_list (list): The list of integers to search.
-
-    Returns:
-        tuple: A tuple containing the minimum element, number of comparisons,
-        and time taken in milliseconds.
-    """
     comparisons = 0
     minimum = float("inf")
     start_time = time.perf_counter()
@@ -32,7 +17,6 @@ def find_min_and_measure_time(input_list):
     return minimum, comparisons, time_taken
 
 
-# Main script
 if __name__ == "__main__":
     n_values = [10, 100, 1000, 10_000, 100_000]
     c_values = []

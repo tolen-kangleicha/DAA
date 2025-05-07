@@ -1,38 +1,38 @@
 from graphviz import Digraph
 
-graph = Digraph(format='png')  # Graphviz Directed Graph
+graph = Digraph(format="png")
+
 
 def opt(i, M, p, w, parent):
     global count, graph
-    count += 1  # Count function calls
-    node_id = f"({i+1},{M})"  # Unique node name
+    count += 1
+    node_id = f"({i+1},{M})"
 
-    if parent:  # Add edge in Graphviz graph
+    if parent:
         graph.edge(parent, node_id)
 
-    if M < 0:  # Invalid state (exceeded capacity)
-        return float('-inf')
-    if i < 0:  # No items left
+    if M < 0:
+        return float("-inf")
+    if i < 0:
         return 0
 
-    # Recursive cases
     val_1 = opt(i - 1, M, p, w, node_id)  # Exclude item i
     val_2 = p[i] + opt(i - 1, M - w[i], p, w, node_id)  # Include item i
 
     return max(val_1, val_2)
 
-# Function to solve a problem instance
+
 def solve_knapsack(p, w, M, problem_name):
     global count, graph
-    count = 0  # Reset call counter
-    graph.clear()  # Reset Graphviz graph
+    count = 0
+    graph.clear()
 
-    max_profit = opt(len(p) - 1, M, p, w, None)  # Start recursion
+    max_profit = opt(len(p) - 1, M, p, w, None)
 
-    # Render the recursion tree
-    graph.render(problem_name, view=True)  # Saves as {problem_name}.png and opens it
+    graph.render(problem_name, view=True)
 
-    return max_profit, count  # Return results
+    return max_profit, count
+
 
 if __name__ == "__main__":
     print("\n===== Test Case: 01 =====")

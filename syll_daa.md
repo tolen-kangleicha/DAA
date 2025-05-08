@@ -1,4 +1,4 @@
-# 📌 Syllabus for DAA (Design & Analysis of Algorithms)
+# 📌 CS22203 Design and Analysis of Algorithms: 5 Credits (3-0-4)
 
 ## 📖 Unit I: [Complexity Analysis](./theory/notes/intro_to_daa.pdf) & [Divide and Conquer](./theory/notes/dac_method.pdf)
 - **Asymptotic Notations** and their significance  

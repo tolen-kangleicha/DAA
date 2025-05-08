@@ -19,7 +19,7 @@
   - Minimum Spanning Trees (MST)  
   - Single-source shortest paths  
 
-## 🔥 Unit III: Dynamic Programming  
+## 🔥 Unit III: [Dynamic Programming](./theory/notes/dynamic-programming.pdf)
 - **Concepts:** Optimal Substructure, Memorization  
 - **Algorithms:**  
   - `0/1 Knapsack`  
@@ -29,17 +29,17 @@
   - `Longest Increasing Subsequence (LIS)`  
   - **All-Pairs Shortest Paths**  
 
-## ♟️ Unit IV: Backtracking  
+## ♟️ Unit IV: [Backtracking](./theory/notes/backtracking.pdf)
 - `N-Queen Problem`  
 - `Hamiltonian Circuit`  
 - `Subset Problem`  
 - `M-Coloring`  
 
 ## 🚀 Unit V: Branch & Bound, NP-Complete Theory  
-- **Branch and Bound:**  
+- [**Branch and Bound:**](./theory/notes/brand-and-bound.pdf)
   - `Assignment Problem`  
   - `0/1 Knapsack`  
-- **NP-Complete Theory:**  
+- [**NP-Complete Theory:**](./theory/notes/NP-complete.pdf)
   - `P vs NP`  
   - `NP-Hard and NP-Complete Problems`  
   - `Intractability & Approximation Algorithms`  

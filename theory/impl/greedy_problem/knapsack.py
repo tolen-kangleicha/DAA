@@ -3,6 +3,10 @@ class Item:
         self.profit = profit
         self.weight = weight
 
+    def __repr__(self) -> str:
+        return f"({self.profit}, {self.weight})"
+
+
 def fractional_knapsack(capacity, items):
     items.sort(key=lambda item: item.profit / item.weight, reverse=True)
     total_profit = 0.0
@@ -15,11 +19,13 @@ def fractional_knapsack(capacity, items):
             capacity -= item.weight
         else:
             total_profit += (item.profit / item.weight) * capacity
-            capacity = 0    # knapsack is full
+            capacity = 0  # knapsack is full
     return total_profit
+
 
 if __name__ == "__main__":
     items = [Item(11, 20), Item(16, 100), Item(10, 100)]
     capacity = 1000
+    print("(p, w) =", items)
     max_profit = fractional_knapsack(capacity, items)
     print(f"Maximum profit in knapsack = {max_profit:.2f}")

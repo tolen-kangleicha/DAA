@@ -7,5 +7,7 @@ def is_sorted(A):
             desc = False
     return asc or desc
 
-A = [1, 2, 3]
-print(is_sorted(A))
+
+if __name__ == "__main__":
+    A = [1, 2, 3]
+    print(is_sorted(A))

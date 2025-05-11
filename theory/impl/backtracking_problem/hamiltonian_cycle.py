@@ -5,7 +5,7 @@ n = 5
 adj = [[0] * n for _ in range(n)]
 
 # Example edges (undirected)
-edges = [(0, 2), (0, 3), (1, 2), (1, 3), (2, 3)]
+edges = [(0, 1), (0, 2), (0, 3), (1, 2), (1, 3), (2, 3)]
 
 
 # Fill adjacency matrix
